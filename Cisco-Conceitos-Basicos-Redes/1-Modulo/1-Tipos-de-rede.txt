@@ -1,0 +1,71 @@
+1. Quem é o dono da internet?
+    A internet não pertence a uma pessoa, empresa ou país
+    É uma enorme rede mundial de redes conectadas entre si
+
+    Ela funciona por meio de:
+        -   Cabos de fibra óptica
+        -   Cabos submarinos
+        -   Redes wifi
+        -   Satélites
+        -   Redes móveis (4G/5G)
+
+    Tudo que você acessa como Instagram, jogos, cursos e bancos estão armazenados em servidores pelo mundo
+
+2. O que são redes locais?
+    Rede local (LAN) -> Vários dispositivos conectados entre si em um memso ambiente. Exemplos:
+
+    Rede doméstica (SOHO - Small Office Home Office)
+        -   Computadores
+        -   Celulares
+        -   Impressoras
+        -   Smart TV
+
+    Rede empresariais:
+        Empresas usam redes maiores para:
+            -   Armazenar dados
+            -   Fazer videoconferencia
+            -   Enviar emails internos
+        
+        Comunicação da rede:
+            -   Mais rápida
+            -   Mais barata
+
+3. Dispositivos móveis conectados
+    Hoje a internet vai muito além dos Computadores
+
+    Smartphone:
+        -   Redes sociais
+        -   Bancos digitais
+        -   GPS
+        -   Jogoa
+
+    Smartwatch:
+        -   Notificações
+        -   Monitoramento cardiaco
+        -   Mensagens rápidas
+
+4.  Dispositivos domésticos conectados
+    Isso se chama IoT (Internet das Coisas)
+
+    Sistema de segurança:
+        -   Câmeras online
+        -   Controle pelo Celulares
+
+    Console de jogos:
+        -   Jogos online
+        -   Downloads digitais
+        -   Multiplayer global
+
+5.  Outros dispositivos conectados:
+    A internet também esta fora de casa:
+
+    Carros inteligentes:
+        -   GPS em tempo real
+        -   Assistência de direção
+
+    RFID (etiquetas inteligentes):
+        -   Controle de estoque
+        -   Cartões de acesso
+        -   Pagamento por aproximação
+
+    

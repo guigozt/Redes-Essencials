@@ -1,0 +1,60 @@
+1. O bit
+    Bit = digito binário (0 ou 1)
+    Menor unidade de informação existente
+    Apenas o que os computadores conseguem entender
+
+    Pense como um interruptor de luz:
+        1 - Ligado
+        2 - Desligado
+    
+    Byte = 8 bits
+    01000001 -> Representa um caractere
+
+2. ASCII - Traduzindo bits em letras
+    Um dos primeiros padroes criados
+    Define qual combinação de bits representa qual caractere
+
+    Exemplos:
+        -   A = 01000001
+        -   9 = 00111001
+        -   # = 00100011
+
+    Mas e fotos, videos e musicas?
+        -   Foto = Milhões de pixels -> Cada pixel vira um número -> Vira bit
+        -   Música = Ondas sonoras -> viram dados digitais -> Vira bit
+        -   Video = sequencia de imagens + audio -> Vira bit
+    
+3.  Como os bits viajam na rede?
+    Depois que dados viram bits, eles são enviados para outro lugar
+    Precisam virar sinais físicos
+
+    Metodos comuns de trasmissão de dados:
+
+    Sinais elétricos (Cabo de cobre):
+        -   Pulsos elétricos
+        -   Variações de voltagem
+
+        -   Cabos Ethernet
+        -   Redes domesticas e escritórios
+    
+        -   Barato e eficiente para distâncias menores
+
+    Sinais Ópticos (Fibra óptica):
+        -   Pulsos de luz
+
+        -   Muito rápido
+        -   Maior alcance
+        -   Menos interferência
+
+        -   Cabos submarinos
+        -   Grandes Empresas
+
+    Sinais sem fio (Wireless):
+        -   Ondas de rápido
+        -   Micro Ondas
+        -   Infravermelho
+
+        -   Wifi
+        -   4G/5G
+        -   Bluetooth
+

@@ -1,0 +1,56 @@
+1.  Banda larga
+    Capacidade máxima de transmissão de dados de uma rede por segundo
+
+    Medidas:
+        -   bps = bits por segundo
+        -   Mbps = Megabits por segundo
+        -   Gbps = Gigbits por segundo
+
+2.  O que determina a largura de banda?
+        Depende da tecnologia usada
+
+        Cabo de cobre (Ethernet) -> Pode chegar a:
+            -   100 Mbps
+            -   1 Gbps
+            -   10 Gbps
+
+        Fibra óptica -> Pode chegar a:
+            -   1 Gbps
+            -   10 Gbps
+
+        Wifi:
+            -   Wifi 5
+            -   Wifi 6
+            -   Wifi 6E
+
+3.  Taxa de transferencia
+    Quantidade real de dados que passa pela rede em um determinado tempo
+    É a velocidade real que você experimenta
+
+    Diferenca entre largura de banda e taxa de transferencia:
+        -   Largura de banda -> Velocidade máxima teórica de conexão
+        -   Taxa de transferencia -> Velocidade real que acontece
+
+        Exemplo:
+            Plano de 100 Mbps (largura de banda)
+            Download = 62 Mbps (taxa de transferencia)
+
+
+4. Por que a taxa é menor?
+    1 - Quantidade de dados trafegando: Quanto mas gente usa, menor é a velocidade
+    2 - Tipo de dados: Streaming, jogos e downloads grandes exigem mais da rede
+    3 - Latencia: Quanto mais dispositivos no caminho, maior o atraso
+
+5. O que é latencia?
+    Atraso na comunicação, famoso "ping"
+    
+    Ping baixo (10ms-30ms) = ótimo
+    Ping alto (150ms+) = atraso
+
+6. Alertas
+    A taxa de transferencia não mede qualidade, apenas Quantidade
+
+7.  O problema do "elo mais fraco"
+    Em uma rede com varios trechos:
+
+    Se houver um trecho mais lento, ele limita toda a conexão
