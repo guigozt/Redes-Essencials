@@ -1,0 +1,58 @@
+1.  Primeira configuração do roteador
+    Inicialmente, ele oferece:
+        -   Assistencia de configuração automática
+        -   Acesso via navegador
+
+    1 - Conectando via cabo:
+        -   Conectar cabo Ethernet no computador
+        -   Conectar a outra ponta na porta LAN do roteador
+
+    2 - Conexão com a Internet:
+        Modem separado:
+            -   Cabo coaxial
+            -   Cabo telefonico
+
+        Modem embutido:
+            - Alguns já possuem o modem integrado
+
+    3 - Endereço IP automático
+        -   Servidor DHCP ativo
+
+        O DHCP entrega automaticamente:
+        -   IP
+        -   Mascara
+        -   Gatway
+        -   DNS
+
+    4 - Nome da rede (SSID):
+        Evitar:
+            -   Nome do modelo do roteador
+            -   Nome do provedor
+            -   Informações pessoais
+            -   Marca
+
+    5 - Modos wifi:
+        Padroes usados:
+            -   802.11b
+            -   802.11g
+            -   802.11n
+            -   802.11ac
+            -   802.11ax
+
+        Se todos os dispositivos são modernos:
+            -   Configure apenas padrões mais recentes
+        Se ha dispositivos antigos:
+            -   Use modo misto
+
+    6 - Segurança
+        Nunca deixe:
+
+        -   Rede aberta
+        -   Criptografia WEP
+        -   Senha fraca
+
+        Use:
+
+        -   WPA2 ou WPA3
+        -   Senha forte (12+ caracteres)
+        -   Atualização de firmware 

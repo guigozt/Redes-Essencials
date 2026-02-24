@@ -1,0 +1,77 @@
+1.  4G e 5G
+    São gerações de tecnologia de rede movel
+
+    Cada nova geração:
+        -   Aumanta velocidade
+        -   Reduz latencia
+        -   Tecnologias mais eficientes
+
+    4G (Quarta geração):
+        Possibilitou:
+            -   Streaming em HD
+            -   Jogos online moveis
+            -   Redes sociais pesadas
+
+    5G (Quinta geração):
+        Não é só mais rapido, foi criado para suportar:
+            -   Cidades inteligentes
+            -   Carros autonomos
+            -   IoT em massa
+            -   Industria 4.0 
+
+        Por que é mais rapido?
+            -   Frequencia mais altas
+            -   Antenas mais avançadas
+
+2.  Outras redes sem fio
+    Alem da rede celular (GSS, 4G, 5G) o smatphone usa outras tecnologias, como:
+        - GPS, Wifi, Bluetooth, NFC
+
+    1.  GPS (Sistema de Posicionamento Global)
+        Sistema que usa satelites orbitando a Terra. O smatphone:
+
+            -   Recebe sinais de varios satelites
+            -   Calcula o tempo que o sinal levou para chegar
+            -   Determina posição
+
+        Pra que usamos?
+            -   Google Maps
+            -   Uber
+            -   IFood
+            -   Apps de corrida e ciclismo
+            -   Rastreamento
+
+    2.  Wifi
+        Funciona por ondas de radio. Permite que o celular se conecte a:
+            -   Redes locais (LAN)
+            -   Internet
+
+        Como funciona?
+            O celular precisa estar dentro do alcance de um:
+                -   Access Point
+                -   Roteador Wifi
+
+        Diferenças com 4G/5G:
+
+        | Wi-Fi                  | Rede móvel             |
+        | ---------------------- | ---------------------- |
+        | Alcance curto          | Cobertura da operadora |
+        | Geralmente mais rápido | Pode variar            |
+        | Não usa plano de dados | Usa plano da operadora |
+
+    3.  Bluetooth:
+        Tecnologia sem fio de:
+            -   Curto alcance
+            -   Baixo consumo de energia
+
+        Exemplo de uso:
+            -  Fone de ouvido
+            -  Caixa de som
+
+    4.  NFC (Near Field Communication):
+        Comunicação de curtissimo alcance. Funciona por aproximação
+
+        Usos comuns:
+            -   Pagamento por aproximação
+            -   Acesso por crachá
+    

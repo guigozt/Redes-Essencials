@@ -1,0 +1,39 @@
+1.  Componentes de uma rede domestica:
+    -   Internet
+    -   Arquivos
+    -   Impressoras
+
+    Normalmente ela é uma WLAN (Wireless Local Area Network)
+
+    Dispositivos comuns:
+        -   Computador Desktop
+        -   Console de videogame
+        -   Smart TV
+        -   Impressoras Wifi
+        -   Dispositivos IoT
+
+    Tendencias atuais:
+        -   Alexa
+        -   Fechaduras digitais
+        -   Cameras IP
+    
+    Chamada de casa inteligente
+
+2.  Roteadores Tipicos de Rede Domesticas
+    Roteador é o coração da rede domestica
+
+    1.  Portas Ethernet
+        Conectar dispositivos com cabo de rede
+
+    2.  Porta Internet
+        Conectar o roteador ao modem
+        Liga sua rede interna ao provedor de Internet
+    
+    3.  Wifi no Roteador
+        Possui: Antenas e Ponto de acesso
+
+        -   Todos conseguem se comunicar entre simples
+
+    Como tudo se conecta:
+
+        Internet -> Modem -> Porta WAN do Roteador -> Switch interno do roteador (LAN) ->   Wifi e portas Ethernet ->   Seus dispositivos

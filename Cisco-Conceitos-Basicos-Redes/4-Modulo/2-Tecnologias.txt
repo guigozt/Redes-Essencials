@@ -1,0 +1,38 @@
+1.  Frequencias de LAN sem fio
+    Usam principalmente duas faixas de Frequencia:
+        -   2,4 GHz
+        -   5 GHz
+
+        Essas faixas são não licenciadas, qualquer fabricante pode utilizar sem comprar a licença do governo
+
+    Diferença entre 2,4 GHz e 5 GHz:
+
+    | Característica | 2,4 GHz         | 5 GHz               |
+    | -------------- | --------------- | ------------------- |
+    | Alcance        | Maior           | Menor               |
+    | Velocidade     | Menor           | Maior               |
+    | Interferência  | Mais comum      | Menos congestionada |
+    | Ideal para     | Longa distância | Alta velocidade     |
+
+    Por que 2,4 GHz sofre mais interferencia?
+        -   Bluetooth
+        -   Micro ondas
+        -   Telefones sem fio
+        
+        Isso causa lentidão
+
+2.  Tecnologias de Redes com fio:
+
+    Ethernet:
+        Permite que dispositivos se comuniquem em uma LAN com fio
+
+        Normalmente usa:
+        -   Cabo par trançado (UTP)
+        -   Conector RJ-45
+
+        -   Existem varios tamanhos
+        -   Podem atingir velocidades de 100 Mbps, 1 Gbps ou mais
+
+    Alternativas quando não há cabo:
+        -   Powerline ->    Rede elétrica da casa
+        -   Adaptadores especiais

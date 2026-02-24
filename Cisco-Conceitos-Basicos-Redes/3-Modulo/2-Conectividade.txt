@@ -1,0 +1,39 @@
+1.  Dispositivos Moveis e Wifi
+
+    Mobilidade
+        -   Trabalhar em qualquer lugar
+        -   Assistir aulas online
+        -   Fazer chamadas chamadas de voz e video
+
+        Tudo iso sem usar cabos de rede. Universidades, empresas, e espaços publicos usam redes Wifi
+
+    Por que usar Wifi no celular?
+        -   Não consome plano de Internet
+        -   Usa menos bateria
+
+    Segurança no Wifi
+        -   Nunca enviar login/senha em texto simples
+        -   Usar VPN ao acessar dados sensiveis
+
+2.  Configurações de Wifi
+    Dois principais sistemas são:
+        -   Android
+        -   iOS
+
+    Como funciona a conexão automatica?
+    
+        1.  O celular se conecta automaticamente sempre que estiver no alcance
+        2.  Se sair da area, usa automaticamente os dados moveis
+        3.  A troca entre Wifi e 4G/5G normalmente é invisivel para o usuario
+
+3.  Configurar o Wifi manualmente
+    -   SSID está oculto -> Nome da rede
+    -   Conexão automatica desativada
+
+4.  Pareamento Bluetooth
+    Processo de conectar dois dispositivos pela primeira vez
+
+    Como funciona?
+        -   Dispositivo fica em modo detectavel
+        -   Eles trocam informações: Nome, Classe, Serviços
+        -   Podem solicitar PIN

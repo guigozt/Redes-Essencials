@@ -1,0 +1,66 @@
+1.  Redes Wifi
+    O principal orgão responsavel pelos padrões é o:
+        -   IEEE
+    O padrão que controla redes WLAN é:
+        -   IEEE 802.11
+
+    O que o padrão 802.11 define?
+    -   Frequência usada (2,4 GHz ou 5 GHz)
+    -   Taxa de dados
+    -   Potência de transmissão
+    -   Formato dos quadros
+    -   Métodos de acesso ao meio
+
+    Todas essas tecnologias juntas são conhecidas como Wi-Fi.
+
+    Cada novo padrão melhora:
+    -   Velocidade
+    -   Estabilidade
+    -   Eficiência
+    -   Capacidade de múltiplos dispositivos
+
+2.  Configurações de Rede Sem Fio
+    Roteadores Wi-Fi possuem várias configurações importantes.
+
+    Modo de Rede
+        Define quais padrões o roteador aceita:
+
+    -   Apenas 802.11n
+    -   Apenas 802.11ac
+    -   Modo misto (Mixed Mode)
+
+    Importante:
+    -   Se configurar apenas um padrão, dispositivos antigos podem não conectar.
+
+3.  SSID
+    É o nome da rede Wifi
+
+    "Casa-Usuario_5G"
+
+    -   Até 32 caracteres
+    -   Diferencia maiúsculas e minúsculas
+    -   Aparece no cabeçalho dos quadros Wi-Fi
+    -   Identifica a qual WLAN o dispositivo pertence
+
+4.  Broadcast de SSID
+    Define se o nome da rede será visivel
+
+    -   Ativado ->      Aparece na lista de rede
+    -   Desativado ->   Precisa digitar manualmente
+
+    Desativar o Broadcast não protege a sua rede de verdade.
+    A proteção real vem de:
+        -   WPA2
+        -   WPA3
+
+    STA = Qualquer dispositivo cliente Wifi
+
+5.  Canal
+    Wifi divide a Frequencia em canais
+
+    No brasil -> Canais 1 a 11
+
+    -   Configurado automaticamente
+    -   Roteador escolhe o melhor Canal
+
+    Se muitos roteadores usarem o mesmo canal, acontece interferencia
