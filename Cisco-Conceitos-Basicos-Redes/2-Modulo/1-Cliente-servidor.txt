@@ -1,0 +1,54 @@
+1. Funções de clientes e servidores
+    Host = qualquer dispositivo conectado a rede que envia ou recebe dados
+
+    Exemplo: Nootebook / Celular / Servidor / Smart TV
+
+2. Cliente vs Servidor
+    -   Cliente:    Solicita algo
+    -   Servidor:   Fornece algo
+
+    Um mesmo computador pode ser os dois?
+    -   Sim, tudo depende do software instalado
+
+    Exemplo:    Seu pc acessa sites (cliente)
+                Mas roda um servidor local (node, xampp, docker)
+
+3. Redes Ponto a Ponto (P2P)
+    Rede onde todos os computadores podem ser cliente e servidor ao memso tempo
+
+    Exemplo: Dois computadores conectados diretamente:
+                - Ambos enviam arquivos
+                - Ambos compartilham impressora
+                - Ambos acessam dados um do outro
+
+    Vantagens:
+        -   Facil de configurar
+        -   Barato
+        -   Não precisa de servidor dedicado
+
+    Desvantagens:
+        -   Sem administação central
+        -   Menos seguro
+        -   Não escalavel
+
+    Empresas grandes usam servidores dedicados:
+        -   Muito trafego
+        -   Muitos usuarios
+        -   Segurança
+
+4. Resumindo:
+
+| Conceito          | Explicação Moderna                     |
+| ----------------- | -------------------------------------- |
+| Host              | Qualquer dispositivo na rede           |
+| Cliente           | Quem pede                              |
+| Servidor          | Quem responde                          |
+| P2P               | Todos podem pedir e responder          |
+| Servidor dedicado | Máquina focada só em fornecer serviço  |
+| Aplicação P2P     | Compartilhamento direto entre usuários |
+
+5.  Visão moderna:
+    -   Cliente ->  Navegador
+    -   Servidor -> Backend (node, java)
+    -   Banco ->    Servidor de dados
+    -   Cloud ->    Servidores distribuidos

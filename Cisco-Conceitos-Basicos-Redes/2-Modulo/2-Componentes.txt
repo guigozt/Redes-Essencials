@@ -1,0 +1,44 @@
+1. Infraestrututa da rede
+    É a estrutura que permite que a comunicação aconteça
+    É o conjunto de hardware + meios fisicos que transportam os dados como:
+        - Dois computadores conectados por um cabo
+        - Redes interligando países por fibra optica submarina
+
+    A infratestrutura tem 3 categorias principais:
+
+    1 - Dispositivos finais:
+        Dispositivos que as pessoas usam diretamente
+        -   Computador
+        -   Smartphone
+        -   Câmera de Segurança
+
+        São o origem ou destino da mensagem
+
+    2 - Dispositivos intermediários:
+        Eles não criam nem consomem dados
+        Eles direcionam e controlam o trafego
+        -   Roteador
+        -   Switch
+        -   FireWall
+
+    3 - Meios fisicos:
+        São o caminho por onde os dados passam
+        -   Cabo Ethernet
+        -   Fibra optica
+        -   Wifi
+
+2. Como um dispositivo sabe onde enviar dados?
+    Cada dispositivo tem um endereço unico
+
+    -   Endereço IP
+    -   Endereço MAC
+
+    Quando envia algo:
+        1. Seu dispositivo coloca o endereço do destino
+        2. A rede usa esse endereço para entregar a mensagem
+
+3. Visão moderna:
+    1. Celular (dispositivo final) faz requisição
+    2. Roteador (dispositivo intermediário) encaminha
+    3. Fibra optica (meio fisico) transportam
+    4. Servidor Netflix (dispositivo final)

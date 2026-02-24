@@ -1,0 +1,77 @@
+1. Serviço ISP
+    Provedor de Serviços de Internet
+    É a empresa que conecta sua rede domestica a internet global
+
+    O que o ISP faz?
+        -   Conecta sua casa a internet
+        -   Fornece endereço IP
+        -   Encaminha seus dados para outros lugares do mundo
+
+    Exemplo no Brasil:
+        -   Operadores de fibra
+        -   Operadores de TV a cabo
+        -   Operadoras de Celular
+
+    Serviços extras que ISPs oferecem:
+        -   Hospedagem de sites
+        -   Backup automático
+        -   Armazenamento em nuvem
+
+2. O backbone da Internet
+    A internet global funciona como uma rede de "autoestradas digitais". Chamada de Backbone de Internet
+
+    Formada por:
+        -   Cabos de fibra optica
+        -   Cabos submarinos
+        -   Conexões entre grandes cidades
+
+    Os ISPs se conectam entre si, formando uma estrutura hierarquica, garantindo que os dados sigam o caminho mais eficiente
+
+3. Como nos conectamos ao ISP?
+    Roteador (modelo moderno):
+
+    Internet -> Modem -> Roteador -> Dispositivos
+
+    O roteador:
+        -   Distribui Wifi
+        -   Atribui IP interno
+        -   Protege com firewall
+
+4. Conexões comuns:
+    
+    Cabo (Coaxial):
+        -   Usa o mesmo cabo da TV a cabo
+        -   Internet sempre ativa
+        -   Boa largura de banda
+        
+        Vantagens
+        -   Boa velocidade
+        -   Estável
+
+    Internet celular:
+        Funciona via rede movel
+
+        Vantagens:
+        -   Mobilidade
+        -   Otimo para areas remotas
+
+        Desvantagens:
+        -   Limite de dados
+        -   Instabilidade
+
+    Satelite:
+        Ideal para:
+        -   Areas ruais
+        -   Locais sem fibra ou cabo
+
+        Desvantagens:
+        -   Latencia alta
+        -   Equipamento caro
+        -   Visao livre do céu
+
+    Fibra Opica direta (FTTH):
+        Tecnologia mais moderna atualmente
+
+        -   Apartamentos e empresas conectadas direto com fibra
+        -   Altissima velocidade
+        -   Baixa latencia
