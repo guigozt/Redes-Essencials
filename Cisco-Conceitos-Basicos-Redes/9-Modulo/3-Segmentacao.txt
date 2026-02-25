@@ -1,0 +1,61 @@
+1.  Dominio de Broadcast
+    Conjunto de dispositivos que recebem uma mensagem Broadcast
+
+    Quem propaga Broadcast?
+        Switch:
+        -   Encaminha Broadcast para todas as portas
+        -   Não separa dominios de Broadcast
+
+        Roteador:
+        -   Não Encaminha Broadcast
+        -   Cada interface do roteador cria um novo dominio de Broadcast
+
+        Exemplo:
+            Se uma LAN tem 400 computadores:
+                -   Um ARP ou DHCP = Broadcast
+                -   Os 400 dispositivos recebem
+                -   Todos precisam processar
+
+            Isso pode deixar a rede lenta
+
+2.  Problemas de Dominio de Broadcast Grande
+    Quanto maior a rede:
+        -   Mais trafego Broadcast
+        -   Mais processamento
+        -   Pior desempenho
+
+3.  Solução: Sub-rede (Subnetting)
+    Dividir uma rede grande em redes menores
+
+    Exemplo:
+        Antes: 172.16.0.0/16 (400 hosts)
+        
+        Depois: 172.16.0.0/24 (200 hosts)
+                172.16.1.0/24 (200 hosts)
+
+        Agora: Cada sub-rede tem seu próprio dominio de Broadcast
+
+    O que mudo
+        O pefixo: /16 -> /24
+
+        Pega os bits da parte de host para criar novas redes
+    
+4.  Por que segmentar redes?
+    -   Reduz trafego
+    -   Melhor desempenho
+    -   Aumenta segurança
+    -   Facilita organização
+    -   Limpa problemas
+
+    Formas comuns de segmentação:
+
+        Localização:
+            -   Um andar = uma sub rede
+        
+        Setor:
+            -   RH = uma sub rede
+            -   Administração = outra sub rede
+
+        Dispositivos:
+            -   Usuarios
+            -   Servidores

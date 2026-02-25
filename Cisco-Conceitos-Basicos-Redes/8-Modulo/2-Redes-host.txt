@@ -1,0 +1,36 @@
+1.  Redes e Hosts
+    Um endereço IPV4 possui:
+        -   Parte da Rede
+        -   Parte do Hosts
+
+    Isso é chamado de endereçamento hieraquico
+
+    O que significa?
+        Que o IP é dividido em niveis
+            -   [Rede] [Host]
+
+        Rede: identifica qual rede o dispositivo pertence
+        Host: identifica qual dispositivo dentro daquela rede
+
+    Exemplo:
+        -   IP: 192.168.5.11
+        -   Mascara: 255.255.255.0
+
+    O que a Mascara faz?
+        A Mascara da sub-rede indica qual parte do IP é a rede, e qual parte é host
+
+        Exemplo: 255.255.255.0
+
+        Significa que:
+            -   3 primeiros Octetos (192.168.5) = Rede
+            -   Ultimo Octeto (11) = Host
+
+2.  Comunicação entre host:
+        Se dois dispositivo tiverem:
+        -   Mesma porção de rede
+        -   Mesma Mascara
+        Eles se comunicam diretamente
+
+        Se tiverem:
+        -   Redes diferentes
+        Precisam de um roteador

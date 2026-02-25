@@ -1,0 +1,55 @@
+1.  O que é o endereço IPV4?
+    Endereço lógico que identifica um dispositivo dentro da rede
+    Funciona como: Endereço da sua casa na Internet
+
+    Sem um IPV4, um dispositivo não consegue se comunicar na rede IPV4
+
+    Onde o IPV4 é configurado?
+        É atribuido a interface de rede do dispositivo, sendo ela:
+            -   Placa de Rede (NIC)
+            -   Interface Wifi
+            -   Porta Ethernet
+
+    Quem usa IPV4?
+        -   Computadores
+        -   Servidores
+        -   Roteadores
+
+    Um servidor pode ter varias interfaces, e cada um tera um IPV4 diferente
+
+    Como funciona na pratica?
+        Quando você envia dados pela Internet, cada pacote contém:
+            -   IP de origem
+            -   IP de destino
+
+        Isso permite que os roteadores saibam:
+            -   Onde enviar
+            -   ONde retornar com a resposta
+
+2.  Octetos e Notação Decimal com Ponto
+
+    Tamanho do IPV4:
+        -   32 bits
+        
+        Exemplo: 11010001101001011100100000000001
+
+    Divisão de Octetos:
+        -   4 grupos de 8 bits
+        -   Cada grupo = 1 Octeto
+
+        Exemplo: 11010001.10100101.11001000.00000001
+
+    Conversão para Decimal:
+        Cada Octeto binario é convertido para numero Decimal
+
+        Exemplo: 209.165.200.1
+
+    Estrutura de um IPV4:
+        XXX.XXX.XXX.XXX
+
+        Cada parte pode variar de: 0 até 255
+        Porque 8 bits permitem 256 combinações (0 - 255)
+
+    Analogia Simples:
+        -   209.165.200.1
+        -   Pais.Estado.Cidade.Casa

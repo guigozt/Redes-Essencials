@@ -1,0 +1,57 @@
+1.  Endereços Privados e NAT (Internet)
+    Endereços IPV4 Privados:
+        São usados dentro da rede interna (intranet) e não funcionam na internet
+
+    Faixas privadas:
+        -   10.0.0.0/8
+        -   172.16.0.0/12
+        -   192.168.0.0/16
+
+    O que é NAT?
+        IP privado -> IP publico
+
+        Quem faz isso?
+            O roteador que conecta sua rede ao provedor ISP
+        
+        Exemplo:
+            -   Seu PC: 192.168.0.10
+            -   O roteador traduz: 200.150.80.25 (IP publico)
+
+        Sem NAT, a internet não funcionaria nas redes domesticas
+
+2.  Endereços IPV4 de Uso Especial
+    
+    Loopback (127.0.0.0/8):
+        -   Mais conhecido como: 127.0.0.1
+        -   Serve para o computador falar com ele mesmo
+        -   Testar TCP/IP
+        -   Testar configuração de rede
+
+    Link-Local (APIPA)
+        -   169.254.0.0/16
+
+        Aparece quando:
+            -   O computador não consegue IP via DHCP
+            -   Auto configura
+            -   Só funciona na rede local, não na internet
+
+3.  Endereçamento Classfull (Antigo)
+    Antigamente os IPs eram divididos em classes fixas:
+
+    | Classe | Prefixo | Hosts por rede | Uso            |
+    | ------ | ------- | -------------- | -------------- |
+    | A      | /8      | +16 milhões    | Redes gigantes |
+    | B      | /16     | ~65 mil        | Redes médias   |
+    | C      | /24     | 254            | Redes pequenas |
+
+    Problemas:
+        -   Classe A e B tinham IP demais
+        -   Classe C tinha IP de menos
+        -   Muito desperdicio
+
+    Foi criado o Endereçamento sem classe (CIDR), usado hoje
+
+4.  Quem distribui os IP publicos?
+    -   IANA -> Distribui blocos para RIRs
+    -   RIRs -> Distribui para: ISPs e Empresas
+

@@ -1,0 +1,60 @@
+1.  Unicast (Um -> Um)
+    -   Um dispositivo envia
+    -   Apenas um dispositivo recebe
+
+    Comunicação um para um
+    É o tipo mais comum de comunicação na internet
+
+    Exemplo:
+        Quando você acessa um site:
+        -   Seu computador envia uma requisição
+        -   O servidor responde só pra você
+
+    Faixa de endereços IPV4 Unicast:
+        -   1.1.1.1 até 223.255.255.255
+
+        Alguns são reservados, como 127.x.x.x / 10.x.x.x
+
+    Caracteristicas:
+        -   Endereço de origem ->   Sempre Unicast
+        -   Endereço de destino ->  Normalmente unicast
+        -   Comunicação direta
+
+2.  Broadcast (Um -> Todos)
+    -   Um dispositivo envia
+    -   Todos na rede recebem
+
+    É a comunicação um para todos dentro da mesma rede
+
+    Exemplo:
+        -   Rede: 172.16.4.0/24
+        -   Broadcast da rede: 172.16.4.255
+        
+    Quando é usado?
+        -   Descobrir dispositivo na rede
+        -   ARP (Descobrir MAC address)
+        -   Configuração automaticas (DHCP)
+
+    Importante:
+        -   Roteadores não encaminham Broadcast
+        -   Muito Broadcast deixa rede lenta
+        -   Só existe no IPV4
+
+3.  Multicast (Um -> Grupo especifico)
+    -   Um dispositivo envia
+    -   Apenas um grupo especifico recebe
+
+    Comunicação um para muitos, mas só para quem se inscreveu no grupo
+
+    Faixa IPV4 do Multicast:
+        -   224.0.0.0 até 239.255.255.255
+
+    Exemplo:
+        -   Protocolo OSPF: 224.0.0.5
+        
+        Somente roteadores com OSPF ativado processam esse pacote
+
+    Uso comum:
+        -   Streaming
+        -   Videoconferencia
+        -   Protocolos de roteamento
