@@ -1,0 +1,91 @@
+1.  Destino na mesma rede
+    Dispositivos na mesma rede -> Comunicação entre placas de rede (NIC <-> NIC)
+
+    Mas existe um problema:
+    -   O host não sabe o IP -> Precisa do Mascara
+
+    Ai entra o ARP (Address Resolution Protocol)
+
+    Exemplo:
+        PC1 quer enviar dados para PC2
+
+        | Dispositivo | IP            | MAC      |
+        | ----------- | ------------- | -------- |
+        | PC1         | 192.168.10.2  | aa-aa-aa |
+        | PC2         | 192.168.10.3  | 55-55-55 |
+    
+    Passo 1:
+        -   Verifica se estão na mesma rede
+        -   Mascara: 255.255.255.0
+        -   Ambos são 192.168.10.x
+
+    Passo 2:
+        -   PC1 envia um broadcast: "Quem tem 192.168.10.3?"
+        -   PC2 responde: "Sou eu! meu MAC é 55-55-55
+
+    Agora o PC1 pode montar o quadro
+
+    Como fica o envio?
+        -   Camada 3 (IP)
+        -   Origem: 192.168.10.2
+        -   Destino: 192.168.10.3
+
+        -   Camada 2 (Ethernet)
+        -   MAC origem: aa-aa-aa
+        -   MAC destino: 55-55-55
+
+2.  Destino em Rede Remota
+    Muda completamente
+
+    PC1 quer enviar para: 8.8.8.8 (Não está na mesma rede)
+
+    Passo 1
+         - Verificar rede - No caso, não está
+         -  Precisa enviar para o Gatewey
+
+        O Gatewey entra em ação:
+            O endereço MAC de destino: MAC do roteador
+
+    Como fica o primeiro envio?
+        -   Camada 3 (IP)
+        -   Origem: 192.168.10.2
+        -   Destino: 8.8.8.8
+
+        -   Camada 2 (Ethernet)
+        -   MAC de origem: aa-aa-aa
+        -   MAC de destino: MAC do roteador (Próximo salto)
+
+    O que o roetador faz?
+        -   Remove quadro Ethernet
+        -   Analisa IP
+        -   Decide salto
+        -   Cria um novo quadro
+        -   Envia novamente
+
+3.  ARP vs IPV6
+
+    IPV4:
+        -   Usa ARP para descobrir MAX a partir do IP
+
+    IPV6:
+        -   Usa ICMPv6 -> Versão moderna e integrada
+
+4.  Fluxo mental:
+
+    Mesma rede:
+        IP destino local
+            ↓
+        Descobre MAC via ARP
+            ↓
+        Envia direto
+
+    Rede remota:
+        IP destino remoto
+                ↓
+        Envia para gateway
+                ↓
+        Roteador encaminha
+                ↓
+        MAC muda a cada salto
+    
+

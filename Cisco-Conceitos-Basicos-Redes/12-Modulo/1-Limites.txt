@@ -1,0 +1,46 @@
+1.  O que é Gatwey?
+    O endereço IP do roteador que conecta sua rede a outras redes
+    Se o computador quer acessar:
+        -   Internet
+        -   Outra rede
+    
+    Envia o trafego para o Gatewey Padrão
+
+    Como funciona na pratica?
+        -   PC: 192.168.1.10
+        -   Mascara: 255.255.255.0
+        -   Gatewey: 192.168.1.1
+
+        Se o PC quer acessar: 8.8.8.8 (Google)
+
+        Ele percebe:
+            -   "Não esta na minha rede"
+        
+        Então ele envia para: 192.168.1.1 (roteador)
+        O roteador encaminha para internet
+
+2.  Como o host aprende o Gatewey?
+    -   Configuração manualmente (IP estático)
+    -   Recebido automaticamente via DHCP
+
+3.  Roteador domestico (função dupla)
+
+    1 - Cliente DHCP (lado da internet)
+        Recebe do provedor:
+        -   IP publico
+        -   Mascara
+        -   Gatewey do ISP
+
+    2 - Servidor DHCP (lado interno)
+        Distribui:
+        -   IP privado
+        -   Mascara
+        -   Seu proprio IP como Gatewey
+
+4.  Roteador como Limite entre redes
+
+        Rede Interna (LAN)
+            ↓
+        Roteador
+            ↓
+    Rede Externa (Internet)

@@ -1,0 +1,64 @@
+1.  Dominios de Broadcast
+    Broadcast é quando um host envia uma mensagem para todos os dispositivs da rede local
+
+    No Ethernet, isso usa o MAC: FF:FF:FF:FF:FF:FF
+
+    O que é Dominio de Broadcast?
+        -   Conjunto de dispositivos que recebem uma mensagem de broadcast
+
+        -   Um ou mais Switches conectados
+        -   Sem roteador separado
+
+    Como o Switch se comporta?
+        -   Um host envia broadcast
+        -   O Switch recebe
+        -   Ele replica para todas as portas
+        -   Todos os hosts recebem
+
+    Problema de excesso de broadcast
+        -   Muitos computadores
+        -   Muitos ARPs
+        -   Muito trafego de rede
+
+        Isso gera: Tempestade de broadcast -> Queda de desempenho
+
+    Como resolver?
+        -   Roteadores
+        -   VLANs
+
+        Roteadores não protegem dominios de broadcast
+
+2.  Comunicação na Camada de acesso
+    Uma placa de rede (NIC) só aceita um quadro se:
+    -   MAC destino for dela
+    -   Se for broadcast
+
+    Caso contrario, ela rejeita o quadro
+
+    O grande problema:
+        Aplicações usam: endereço IP
+        Mas o envio fisico usa: endereço MAC
+
+        Como descobrir o MAC se só temos IP?
+            -   Usando ARP
+
+3.  ARP (Address Resolution Protocol)
+    ARP resolve: IP -> MAC
+
+    1 - ARP Request (Broadcast)
+        -   Host envia: "Quem tem o IP x.x.x.x?"
+        -   Destino MAC: FF:FF:FF:FF:FF:FF
+        -   Todos recebem
+
+    2 - ARP Reply (Unicast)
+        -   Dispositivo correto: "Eu tenho esse IP. Meu MAC é xx:xx:xx:xx:xx:xx"
+        -   Resposta vai para quem perguntou
+
+    3 - Armazenamento na tabela ARP
+        -   O host salva:
+
+        | IP           | MAC               |
+        | ------------ | ----------------- |
+        | 192.168.1.20 | 00:11:22:33:44:55 |
+
+        Agora pode enviar diretamente
