@@ -1,0 +1,39 @@
+1.  Processo Demorado
+
+    -   D ->    Discover
+    -   O ->    Offer
+    -   R ->    Request
+    -   A ->    Acknowledge
+
+    1 - Discover
+        O cliente envia um broadcast dizendo:
+            "Tem algum servidor DHCP?"
+
+        -   Endereço destino: 255.255.255.255
+        -   Porque ele não tem IP ainda
+        -   Pedido geral na rede
+
+    2 - Offer
+        O servidor responde:
+            "Tenho esse IP disponivel pra você"
+
+        -   IP disponivel
+        -   Mascara
+        -   Gatway
+        -   DNS
+        -   Tempo de lease
+        -   Se tiver mais de um servidor, o cliente recebe varias ofertas
+
+    3 - Request
+        O cliente responde:
+            "Eu aceito essa oferta"
+
+        -   Escolhe um servidor e envia outro broadcast informando a decisão
+        -   Avisa outros servidores para retirar suas ofertas
+
+    4 - Acknowledge
+        O servidor confirma:
+            "IP confirmado. Pode usar"
+
+        -   Configura IP
+        -   Entra oficialmente na rede

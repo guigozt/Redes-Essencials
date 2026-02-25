@@ -1,0 +1,52 @@
+1.  Por que precisamos do IPV6?
+    Problema: O IPV4 está acabando
+    IPV4 máximo: 4,3 bilhoes de endereços
+
+    Não é suficiente para:
+    -   Crescimento da internet
+    -   Dispositivos móveis
+    -   Internet das coisas (IoT)
+
+2.  O que é o IPV6?
+    Sucessor do IPV4
+
+    Tamanho do endereço:
+        -   IPV4: 32 bits
+        -   IPV6: 128 bits
+
+    Melhorias:
+        -   Autoconfiguração automatica
+        -   Segurança
+        -   Melhor suporte para IoT
+        -   Sem NAT
+        -   ICMPv6: Descoberta de vizinhos
+
+3.  Problema do NAT no IPV4
+    -   Cria latencia
+    -   Complica comunicações ponto a ponto
+
+    No IPV6:
+        -   Cada dispositivo pode ter IP publico unico
+
+4.  A internet já está migrando
+    -   Provedores moveis usam IPV6
+    -   ISPs já implementam IPV6
+
+5.  Como IPV4 e IPV6 coexistem?
+
+    1 - Pilha Dupla (Dual Stack)
+        O dispositivo usa IPV4 + IPV6 ao mesmo tempo
+
+        Se o site suporta IPV6 -> usa
+        Se não ->   usa IPV4
+
+    2 - Tunelamento
+        Pacote IPV6 dentro de IPV4
+
+        -   Rede ainda é IPV4
+        -   Mas precisa transportar trafego IPV6
+
+    3 - Conversão (NAT64)
+        IPV6 <-> IPV4
+
+        -   Permite que dispositivo IPV6 fale com IPV4

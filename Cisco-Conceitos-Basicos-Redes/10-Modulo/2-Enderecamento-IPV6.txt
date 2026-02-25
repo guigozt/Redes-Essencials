@@ -1,0 +1,44 @@
+1.  Sistema Hexadecimal (Base 16)
+    IPV6 usa Hexadecimal porque é muito grande
+
+    Base 16 siginifica:
+        -   0 1 2 3 4 5 6 7 8 9 A B C D E F
+
+    Onde:
+
+        | Hex | Decimal |
+        | --- | ------- |
+        | A   | 10      |
+        | B   | 11      |
+        | C   | 12      |
+        | D   | 13      |
+        | E   | 14      |
+        | F   | 15      |
+
+    Por que usar Hexadecimal?
+        -   Cada digito representa 4 bits
+        -   IPV6 tem 128 bits
+        -   128 / 4 = 32 digitos Hexadecimal
+
+2.  Estrutura de um Endereço IPV6
+    Tamanho:
+        -   128 bits
+
+    Forma escrita:
+        -   x:x:x:x:x:x:x:x
+
+    -   8 grupos
+    -   Cada grupo: 4 digitos Hexadecimal
+    -   Cada grupo: 16 bits
+    -   Cada grupo é chamado de hexteto
+
+    Exemplo:
+        -   2001:0db8:0000:1111:0000:0000:0000:0200
+
+            | Parte | Explicação |
+            | ----- | ---------- |
+            | 2001  | 1º hexteto |
+            | 0db8  | 2º hexteto |
+            | ...   | ...        |
+            | 0200  | 8º hexteto |
+

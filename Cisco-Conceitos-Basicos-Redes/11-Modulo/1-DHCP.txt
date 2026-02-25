@@ -1,0 +1,50 @@
+1.  IPV4 Estático (manual)
+    Quando o administrador configura manualmente o IP no dispositivo
+
+    -   Endereço IP
+    -   Mascara de sub-rede
+    -   Gatway padrão
+
+    Quando usar?
+        Em dispositivos que não podem mudar o endereço:
+        -   Impressoras
+        -   Servidores
+
+    Vantagens:
+        -   Controle total
+        -   Endereço fixo
+        -   Ideal para Servidores
+    
+    Desvantagens:
+        -   Demorado para configurar
+        -   Pode haver erros de digitação
+        -   Controle manual dos IPs
+
+2.  IPV4 Dinâmico (DHCP)
+    Endereço atribuido automaticamente por um servidor DHCP (Dynamic Host Configuration Protocol)
+
+    -   Endereço IP
+    -   Mascara
+    -   Gatway padrão
+    -   DNS
+
+    Por que é melhor em redes grandes?
+        -   Automatização
+        -   Redução de erros
+        -   Facil suporte
+        -   Ideal para muitos usuarios
+
+    IP não é fixo
+        -   O ip é alugado (lease) por um tempo
+
+        Se o dispositivo sai da rede:
+            -   O ip volta para o pool e pode ser reutilizado
+
+3.  Quem pode ser servidor DHCP?
+    Em casa: Roteador Wifi faz tudo
+        -   CLiente DHCP (recebe IP do provedor)
+        -   Servidor DHCP (distribui IP privado)
+
+    Em empresas:
+        -   Servidor dedicado
+        -   Roteadores corporativos
